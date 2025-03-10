@@ -1202,4 +1202,26 @@ body {
   font-family: "Playwrite IT Moderna", cursive;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .tituloText {
+    margin: 20px;
+  }
+
+  body {
+    align-items: center;
+    /* Centralizando o conteúdo verticalmente */
+  }
+
+  .flowers {
+    margin-top: 500px;
+    /* Reduzindo a margem superior */
+  }
+
+  .night {
+    filter: blur(0.2vmin);
+    /* Ajustando o blur para mobile */
+  }
 }
