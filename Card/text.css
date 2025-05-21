@@ -1,10 +1,15 @@
 body {
-  background-color: #181515;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  text-align: center;
-  padding: 20px;
+  background-color: #000000;
+  color: #555;
+  font-size: 1.1em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  /* impede rolagem lateral */
+  overflow-y: auto;
+  /* permite rolagem vertical */
   margin: 0;
 }
+
 
 .container {
   display: flex;
@@ -18,7 +23,8 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap;
-  height: 95vh;
+  min-height: 100vh;
+  height: auto;
 }
 
 .cute-image {
@@ -49,7 +55,9 @@ p {
   justify-content: center;
   margin-top: 20px;
   position: relative;
+  margin-bottom: 20px;
 }
+
 
 .buttonGallery {
   background-color: #440597;
@@ -95,7 +103,6 @@ body {
   color: #555;
   font-size: 1.1em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow: hidden;
   margin: 0;
 }
 
