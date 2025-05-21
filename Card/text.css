@@ -44,6 +44,33 @@ p {
   line-height: 1.5;
 }
 
+.navGallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.buttonGallery {
+  background-color: #440597;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buttonGallery:hover {
+  background-color: #660add;
+}
+
+.linkGallery {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 600px) {
   .container {
     flex-direction: row;
