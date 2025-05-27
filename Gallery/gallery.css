@@ -27,9 +27,8 @@ header h1 {
   grid-auto-rows: 200px;
   /* Aumentado */
   gap: 12px;
-  padding: 20px;
   max-width: 1400px;
-  width: 100%;
+  width: 95vw;
   justify-content: center;
   grid-auto-flow: dense;
 }
